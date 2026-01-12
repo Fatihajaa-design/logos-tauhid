@@ -2,134 +2,130 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Logos & Tauhid – Forum Akal & Iman</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logos & Tauhid — Diskusi Akal & Iman</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #0e1a2b;
-    color: white;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
 }
-
-header {
-    background: linear-gradient(to right, #0b132b, #1c2541);
-    text-align: center;
-    padding: 80px 20px;
+body{
+    background:linear-gradient(135deg,#0b1120,#1e293b);
+    color:white;
 }
-
-header h1 {
-    font-size: 48px;
-    margin: 0;
-    color: #ffd369;
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
 }
-
-header p {
-    font-size: 20px;
-    opacity: 0.9;
+.hero h1{
+    font-size:3rem;
+    color:#fbbf24;
 }
-
-.btn {
-    display: inline-block;
-    margin: 15px;
-    padding: 15px 30px;
-    background: #ffd369;
-    color: #0b132b;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
+.hero p{
+    margin-top:15px;
+    max-width:600px;
+    color:#cbd5e1;
 }
-
-.btn:hover {
-    background: #ffbe3d;
+.buttons{
+    margin-top:30px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
 }
-
-section {
-    padding: 60px 20px;
-    text-align: center;
+.btn{
+    text-decoration:none;
+    background:#fbbf24;
+    color:#0f172a;
+    padding:14px 28px;
+    border-radius:40px;
+    font-weight:600;
+    transition:0.3s;
+    box-shadow:0 0 20px rgba(251,191,36,0.4);
 }
-
-.section-dark {
-    background: #1c2541;
+.btn:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 35px rgba(251,191,36,0.8);
 }
-
-.cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+.section{
+    padding:80px 20px;
+    text-align:center;
 }
-
-.card {
-    background: #2a3a5a;
-    width: 220px;
-    padding: 20px;
-    border-radius: 10px;
+.section h2{
+    color:#fbbf24;
+    margin-bottom:40px;
 }
-
-.card h3 {
-    color: #ffd369;
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    max-width:900px;
+    margin:auto;
 }
-
-footer {
-    background: #0b132b;
-    padding: 30px;
-    text-align: center;
-    opacity: 0.7;
+.card{
+    background:rgba(255,255,255,0.05);
+    padding:30px;
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-10px);
+    background:rgba(255,255,255,0.1);
+}
+.footer{
+    padding:40px;
+    text-align:center;
+    color:#94a3b8;
+    background:#020617;
 }
 </style>
 </head>
-
 <body>
 
-<header>
+<div class="hero">
     <h1>LOGOS & TAUHID</h1>
-    <p>Forum Akal & Iman</p>
-    <p><i>“Di mana rasio bertemu wahyu”</i></p>
-    <a href="#" class="btn">Gabung Discord</a>
-    <a href="#" class="btn">Mulai Diskusi</a>
-</header>
+    <p>Forum diskusi akal & iman. Tempat rasio bertemu wahyu.</p>
 
-<section>
+    <div class="buttons">
+        <a href="https://wa.me/6282170940643" class="btn">💬 Mulai Diskusi</a>
+        <a href="https://wa.me/6282170940643" class="btn">📲 Gabung WhatsApp</a>
+    </div>
+</div>
+
+<div class="section">
     <h2>Tentang Kami</h2>
-    <p>Logos & Tauhid adalah komunitas diskusi tentang Tuhan, filsafat, dan makna hidup dengan pendekatan rasional dan spiritual.</p>
-</section>
+    <p>Logos & Tauhid adalah ruang diskusi bagi pencari kebenaran — memadukan rasio, filsafat, dan iman.</p>
+</div>
 
-<section class="section-dark">
+<div class="section">
     <h2>Topik Utama</h2>
     <div class="cards">
-        <div class="card">
-            <h3>Tuhan & Tauhid</h3>
-            <p>Diskusi tentang keesaan Tuhan dan iman.</p>
-        </div>
-        <div class="card">
-            <h3>Filsafat & Logika</h3>
-            <p>Berpikir kritis tentang realitas.</p>
-        </div>
-        <div class="card">
-            <h3>Makna Hidup</h3>
-            <p>Mengapa kita hidup?</p>
-        </div>
-        <div class="card">
-            <h3>Perbandingan Agama</h3>
-            <p>Dialog lintas iman.</p>
-        </div>
+        <div class="card">🕌 <b>Tuhan & Tauhid</b><br><br>Diskusi keesaan dan makna ketuhanan.</div>
+        <div class="card">🧠 <b>Filsafat & Logika</b><br><br>Berpikir kritis tentang realitas.</div>
+        <div class="card">🌌 <b>Makna Hidup</b><br><br>Mengapa kita ada?</div>
+        <div class="card">📖 <b>Perbandingan Agama</b><br><br>Dialog lintas iman.</div>
     </div>
-</section>
+</div>
 
-<section>
-    <h2>Prinsip Komunitas</h2>
-    <p>Hormat, logis, bebas bertanya, dan tanpa hujatan.</p>
-</section>
+<div class="section">
+    <h2>Gabung Sekarang</h2>
+    <p>Klik tombol di bawah untuk langsung masuk WhatsApp kami</p>
+    <br>
+    <a href="https://wa.me/6282170940643" class="btn">🚀 Masuk Diskusi WhatsApp</a>
+</div>
 
-<section class="section-dark">
-    <h2>Bergabung Sekarang</h2>
-    <p>Berdialog bersama pencari kebenaran.</p>
-    <a href="#" class="btn">Masuk Discord Logos & Tauhid</a>
-</section>
-
-<footer>
-    © 2026 Logos & Tauhid — Forum Akal & Iman
-</footer>
+<div class="footer">
+    © 2026 Logos & Tauhid — Diskusi Akal & Iman
+</div>
 
 </body>
 </html>
