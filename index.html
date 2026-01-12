@@ -2,113 +2,146 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
+<title>Muhammad Al Fatih | Logos & Tauhid</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Logos & Tauhid – Muhammad Al Fatih</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #0a1020, #111b33);
-    color: white;
-    text-align: center;
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#0a0f1f,#0f1c3a);
+    color:white;
 }
 
-.hero {
-    padding: 80px 20px;
+.main{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
 }
 
-.hero img {
-    width: 150px;
-    margin-bottom: 20px;
+.logo{
+    width:140px;
+    height:auto;
+    margin-bottom:25px;
 }
 
-h1 {
-    font-size: 3em;
-    color: #ffd369;
+h1{
+    font-size:2.7rem;
+    color:#ffd36a;
+    margin-bottom:5px;
 }
 
-.subtitle {
-    font-size: 1.2em;
-    opacity: 0.9;
+.arabic{
+    font-family:'Amiri',serif;
+    font-size:1.7rem;
+    color:#cfe6ff;
+    margin-bottom:20px;
 }
 
-.btn {
-    display: inline-block;
-    margin: 20px 10px;
-    padding: 15px 35px;
-    background: #ffd369;
-    color: #0a1020;
-    font-weight: bold;
-    border-radius: 50px;
-    text-decoration: none;
-    font-size: 1.1em;
-    transition: 0.3s;
+.desc{
+    max-width:650px;
+    font-size:1.1rem;
+    line-height:1.7;
+    opacity:0.9;
+    margin-bottom:40px;
 }
 
-.btn:hover {
-    background: #ffbf00;
+.btn{
+    background:linear-gradient(135deg,#f7c56b,#ff9f43);
+    padding:16px 38px;
+    border:none;
+    border-radius:40px;
+    font-size:1.1rem;
+    font-weight:600;
+    cursor:pointer;
+    color:#1a1a1a;
+    box-shadow:0 15px 40px rgba(255,180,50,0.5);
+    transition:0.3s;
 }
 
-.section {
-    padding: 60px 20px;
-    background: #111b33;
+.btn:hover{
+    transform:scale(1.07);
+    box-shadow:0 20px 50px rgba(255,200,90,0.8);
 }
 
-.card {
-    display: inline-block;
-    width: 250px;
-    background: #1b2645;
-    margin: 15px;
-    padding: 25px;
-    border-radius: 15px;
+.section{
+    margin-top:70px;
+    max-width:900px;
+    width:100%;
 }
 
-footer {
-    padding: 30px;
-    background: #0a1020;
-    font-size: 0.9em;
-    opacity: 0.7;
+.card{
+    background:rgba(255,255,255,0.05);
+    border-radius:20px;
+    padding:30px;
+    margin:15px 0;
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 30px rgba(0,0,0,0.4);
+}
+
+.card h3{
+    color:#ffd36a;
+    margin-bottom:10px;
+}
+
+footer{
+    margin-top:60px;
+    opacity:0.6;
+    font-size:0.9rem;
 }
 </style>
 </head>
 
 <body>
 
-<div class="hero">
-    <img src="logo.png" alt="Logo Muhammad Al Fatih">
-    <h1>LOGOS & TAUHID</h1>
-    <p class="subtitle">Forum Akal & Iman<br>
-    <b>Muhammad Al Fatih</b></p>
+<div class="main">
 
-    <a href="https://wa.me/6285972993343" class="btn">💬 Gabung Diskusi</a>
-    <a href="https://wa.me/6285972993343" class="btn">📱 Hubungi via WhatsApp</a>
+    <!-- LOGO KAMU -->
+    <img src="logo.png" class="logo" alt="Logo Muhammad Al Fatih">
+
+    <h1>Muhammad Al Fatih</h1>
+
+    <div class="arabic">
+        أنا خادم لمن علمني حرفاً واحداً
+    </div>
+
+    <div class="desc">
+        Forum pemikiran dan tauhid — tempat di mana akal dan wahyu bertemu
+        untuk mencari kebenaran dengan adab dan logika.
+    </div>
+
+    <a href="https://wa.me/6285972993343" target="_blank">
+        <button class="btn">💬 Gabung Diskusi WhatsApp</button>
+    </a>
+
+    <div class="section">
+        <div class="card">
+            <h3>🌙 Tauhid</h3>
+            <p>Mengenal Allah dengan akal, wahyu, dan hati.</p>
+        </div>
+
+        <div class="card">
+            <h3>📚 Filsafat & Logos</h3>
+            <p>Berpikir kritis tentang realitas, makna, dan kebenaran.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧭 Makna Hidup</h3>
+            <p>Mengapa kita hidup, dan untuk apa kita diciptakan.</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Muhammad Al Fatih — Logos & Tauhid
+    </footer>
+
 </div>
-
-<div class="section">
-    <h2>Tentang Kami</h2>
-    <p>Logos & Tauhid adalah ruang dialog antara akal dan wahyu, 
-    membahas Tuhan, filsafat, dan makna hidup dalam cahaya iman.</p>
-</div>
-
-<div class="section">
-    <h2>Topik Diskusi</h2>
-
-    <div class="card">🕌 Tauhid & Ketuhanan</div>
-    <div class="card">🧠 Filsafat & Logika</div>
-    <div class="card">🌍 Makna Hidup</div>
-    <div class="card">📖 Perbandingan Agama</div>
-</div>
-
-<div class="section">
-    <h2>Masuk Diskusi</h2>
-    <p>Klik tombol di bawah untuk langsung terhubung dengan Muhammad Al Fatih</p>
-    <a href="https://wa.me/6285972993343" class="btn">Masuk WhatsApp</a>
-</div>
-
-<footer>
-© 2026 Logos & Tauhid — Muhammad Al Fatih
-</footer>
 
 </body>
 </html>
