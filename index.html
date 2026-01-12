@@ -2,123 +2,151 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Muhammad Al Fatih | Logos & Tauhid</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MUHAMMAD AL-FATIH PRTMA | Diskusi Keagamaan & Filsafat</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Poppins&display=swap" rel="stylesheet">
 
 <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
 body{
-  margin:0;
-  font-family:Arial, Helvetica, sans-serif;
-  background:linear-gradient(135deg,#0a0f1f,#0f1c3a);
-  color:white;
-  text-align:center;
+    background:#050505;
+    color:#f5d27a;
+    line-height:1.7;
+}
+header{
+    text-align:center;
+    padding:60px 20px;
+    background: radial-gradient(circle at top, #1a1200, #000);
+}
+header img{
+    width:180px;
+    margin-bottom:20px;
+}
+header h1{
+    font-family:'Cinzel', serif;
+    font-size:40px;
+    letter-spacing:3px;
+}
+header p{
+    max-width:700px;
+    margin:15px auto;
+    color:#e0c675;
 }
 
-.container{
-  min-height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  padding:30px;
+section{
+    padding:70px 10%;
 }
-
-.logo{
-  width:150px;
-  margin-bottom:20px;
-}
-
-h1{
-  font-size:2.8rem;
-  color:#ffd36a;
-  margin-bottom:10px;
-}
-
-.arabic{
-  font-family:"Arial","Tahoma","Times New Roman",serif;
-  font-size:1.8rem;
-  direction:rtl;
-  margin-bottom:25px;
-  color:#cfe6ff;
-}
-
-.desc{
-  max-width:600px;
-  font-size:1.1rem;
-  line-height:1.6;
-  opacity:0.9;
-  margin-bottom:35px;
-}
-
-.btn{
-  background:#ffd36a;
-  color:#111;
-  padding:15px 35px;
-  border:none;
-  border-radius:30px;
-  font-size:1.1rem;
-  font-weight:bold;
-  cursor:pointer;
-  transition:0.3s;
-}
-
-.btn:hover{
-  background:#ffbf00;
-}
-
-.section{
-  margin-top:60px;
-  max-width:800px;
+.section-title{
+    text-align:center;
+    font-size:30px;
+    margin-bottom:30px;
+    font-family:'Cinzel', serif;
 }
 
 .card{
-  background:rgba(255,255,255,0.05);
-  border-radius:15px;
-  padding:25px;
-  margin:15px 0;
+    background:linear-gradient(145deg,#0d0a00,#000);
+    padding:30px;
+    border:1px solid #caa64b;
+    border-radius:15px;
+    margin-bottom:40px;
+    box-shadow:0 0 30px rgba(255,215,100,0.15);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#ffd86b;
+}
+
+.button{
+    display:inline-block;
+    padding:15px 40px;
+    background:linear-gradient(45deg,#ffd86b,#c89b2c);
+    color:#000;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:30px;
+    transition:0.3s;
+}
+.button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px #ffd86b;
 }
 
 footer{
-  margin-top:60px;
-  font-size:0.9rem;
-  opacity:0.6;
+    text-align:center;
+    padding:40px;
+    background:#000;
+    color:#caa64b;
 }
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<header>
+    <img src="logo.png" alt="Logo Muhammad Al-Fatih">
+    <h1>MUHAMMAD AL-FATIH PRTMA</h1>
+    <p>Forum Diskusi Keagamaan dan Filsafat — Mencari kebenaran dengan iman dan akal</p>
+    <a class="button" href="https://wa.me/6285972993343" target="_blank">Gabung Diskusi</a>
+</header>
 
-  <!-- LOGO KAMU -->
-  <img src="logo.png" class="logo" alt="Logo Muhammad Al Fatih">
+<section>
+    <h2 class="section-title">Tentang Forum</h2>
+    <div class="card">
+        <p>
+        Forum ini dibangun untuk mempertemukan iman dan rasio.  
+        Di sini kita membahas Islam, tauhid, akhlak, filsafat, logika, dan pemikiran mendalam tentang kehidupan.
+        </p>
+        <p>
+        Kami percaya bahwa Islam tidak bertentangan dengan akal sehat, melainkan menyempurnakannya.
+        </p>
+    </div>
+</section>
 
-  <h1>Muhammad Al Fatih</h1>
+<section>
+    <h2 class="section-title">Topik Diskusi</h2>
 
-  <div class="arabic">
-    أنا خادم لمن علمني حرفاً واحداً
-  </div>
+    <div class="card">
+        <h3>📖 Keislaman</h3>
+        <p>Al-Qur’an, Hadits, Tauhid, Aqidah, dan pemikiran ulama.</p>
+    </div>
 
-  <div class="desc">
-    Forum Logos & Tauhid — ruang dialog antara akal dan iman untuk
-    mencari kebenaran dengan adab dan rasionalitas.
-  </div>
+    <div class="card">
+        <h3>🧠 Filsafat</h3>
+        <p>Logika, eksistensi, makna hidup, dan hubungan antara akal dan wahyu.</p>
+    </div>
 
-  <a href="https://wa.me/6285972993343" target="_blank">
-    <button class="btn">💬 Gabung Diskusi WhatsApp</button>
-  </a>
+    <div class="card">
+        <h3>⚖️ Debat Sehat</h3>
+        <p>Diskusi dengan adab, bukan saling menjatuhkan, tapi saling mencari kebenaran.</p>
+    </div>
+</section>
 
-  <div class="section">
-    <div class="card">🌙 <b>Tauhid</b> — Mengenal Allah dengan akal dan wahyu</div>
-    <div class="card">📚 <b>Filsafat</b> — Mencari kebenaran dengan logika</div>
-    <div class="card">🧭 <b>Makna Hidup</b> — Tujuan dan eksistensi manusia</div>
-  </div>
+<section>
+    <h2 class="section-title">Visi</h2>
+    <div class="card">
+        <p>
+        Menjadi ruang dialog intelektual yang mengangkat nilai Islam, membangun pemikiran kritis,
+        dan memperkuat iman di era modern.
+        </p>
+    </div>
 
-  <footer>
-    © 2026 — Muhammad Al Fatih | Logos & Tauhid
-  </footer>
+    <center>
+        <a class="button" href="https://wa.me/6285972993343" target="_blank">Gabung Diskusi Sekarang</a>
+    </center>
+</section>
 
-</div>
+<footer>
+    © 2026 — MUHAMMAD AL-FATIH PRTMA  
+    <br>
+    Forum Diskusi Keagamaan & Filsafat
+</footer>
 
 </body>
 </html>
